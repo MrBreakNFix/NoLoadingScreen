@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "noloadingscreen",
+  "version": "${version}",
+
+  "name": "No loading screen",
+  "description": "Removes the loading screen when traveling between worlds",
+  "authors": [
+    "MrBreakNFix"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Anonymous17532/",
+    "sources": "https://github.com/Anonymous17532/NoLoadingScreen"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/noloadingscreen/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mrbreak.NoLoadingScreen.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "noloadingscreen.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

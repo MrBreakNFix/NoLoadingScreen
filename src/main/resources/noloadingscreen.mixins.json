@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mrbreak.NoLoadingScreen.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "DownloadingTerrainScreenMixin",
+    "LevelLoadingScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
