@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# No loading screens
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+### Download the latest file or build from source
+### Put it in your mods folder along with fabric API (https://www.curseforge.com/minecraft/mc-mods/fabric-api/download)
+### Now, dont get bored on that 10 minute loading screen when you have over 300 mods on like me!
